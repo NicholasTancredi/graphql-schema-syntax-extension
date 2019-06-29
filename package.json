@@ -1,13 +1,25 @@
 {
   "name": "graphql-schema-syntax-extension",
-  "version": "1.0.0",
-  "description": "Read npy files in javascript and convert them to array buffer, nested array and json",
+  "version": "1.0.1",
+  "description": "Adds spread syntax and auto interface filling to graphql schema syntax.",
   "main": "index.js",
   "types": "index.d.ts",
+  "author": "Nicholas Tancredi",
+  "license": "ISC",
   "scripts": {
     "build": "tsc",
     "test": "node test.js"
   },
-  "author": "Nicholas Tancredi",
-  "license": "ISC"
+  "keywords": [
+    "graphql",
+    "schema",
+    "syntax",
+    "extension",
+    "graphql-schema",
+    "graphql-schema-syntax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasTancredi/graphql-schema-syntax-extension.git"
+  }
 }
